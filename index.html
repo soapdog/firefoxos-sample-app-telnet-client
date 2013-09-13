@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Telnet</title>
+		<meta charset="utf8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="jquery.mobile-1.4.0-alpha.2.min.css">
+	    <link rel="stylesheet" href="jquery.mobile.theme-1.4.0-alpha.2.min.css">
+		<script src="jquery-1.10.2.min.js"></script>
+		<script src="jquery.mobile-1.4.0-alpha.2.min.js"></script>
+
+	   
+	</head>
+	<body>
+		
+		<div id="mainpage" data-role="page">
+
+			<div data-role="header" data-position="fixed" data-theme="b">
+				<h1>Telnet</h1>
+			</div><!-- /header -->
+
+			<div data-role="content">
+            <pre id="terminal">Click Connect!</pre>
+			</div><!-- /content -->
+
+			<div data-role="footer" data-position="fixed" class="ui-bar">
+				<a href="#" id="connect-to-server">Connect to Server</a>
+                <a href="#" id="close-connection">Disconnect</a>
+                <a href="#" id="send-command">Send Command</a>
+            </div><!-- /footer -->
+		</div><!-- /page -->
+
+		<script src="app.js"></script>
+	</body>
+</html>
